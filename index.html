@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>BAJAJ FINANCE REGISTRATION</title>
+ <link rel="stylesheets" href="styles.css">
+ <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ </head>
+ <body>
+ 
+ <form action= "classes/finalpage.java" method="get" action= "finalpage">
+ <fieldset style="width:30%; background-color:lightgreen">
+ <table class="center">
+ <h1> REGISTRATION FORM</h1>
+ <!-- <fieldset style=""-->
+ <!--Name Form-->
+  <tr><td> First Name</td><td><input type="text" name="fname"></td></tr> <!--fname-->
+  <tr><td>Middle Name</td><td><input type="text" name="mname"></td></tr> <!--mname-->
+  <tr><td>Last Name</td><td><input type="text" name="lname"></td></tr> <!--lname-->
+  <!--Gender-->
+  <tr><td><p>Please select your gender:</p></td><td>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+ <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  </td></tr>
+<tr><td><p>EmployeeType:</p></td>
+<!--EmployeeType-->
+<td>
+<input type="radio" id="pvtemp" name="emp" value="pvtemp">
+  <label for="pvtemp">Private Employee</label><br>
+  <input type="radio" id="govtemp" name="emp" value="govtemp">
+  <label for="govtemp">Government Employee</label><br>
+  <input type="radio" id="self" name="emp" value="self">
+  <label for="other">SELF</label><br>
+</td></tr>
+<!--CreditScore-->
+<td>
+ <label for="creditscore">Credit Score:</label><br>
+  <select name="cs" id="cs"><br>
+    <option value="greaterthan700">CreditScore Greater than 700</option>
+    <option value="lessthan700">CreditScore Less than 700</option>
+</td></tr>
+<tr></td><td>
+ <td><input type = "submit" value="submit"></td></tr>
+ </table>
+ </fieldset>
+ </form>
+ </body>
+</html> 
